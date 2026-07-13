@@ -74,8 +74,12 @@ export async function POST(request: Request) {
     const { env } = await getCloudflareContext({ async: true });
     const secrets = env as CloudflareEnv & { MINIMAX_API_KEY?: string };
     if (secrets.MINIMAX_API_KEY) {
-      const answer = await minimaxAnswer(messages, secrets.MINIMAX_API_KEY, env.MINIMAX_MODEL);
-      return new Response(fallbackStream(answer), { headers: { "Content-Type": "text/event-stream; charset=utf-8", "Cache-Control": "no-cache, no-transform", "X-Content-Type-Options": "nosniff" } });
+      try {
+        const answer = await minimaxAnswer(messages, secrets.MINIMAX_API_KEY, env.MINIMAX_MODEL);
+        return new Response(fallbackStream(answer), { headers: { "Content-Type": "text/event-stream; charset=utf-8", "Cache-Control": "no-cache, no-transform", "X-Content-Type-Options": "nosniff" } });
+      } catch (error) {
+        console.warn("MiniMax chat unavailable; using Workers AI", error);
+      }
     }
     const stream = await env.AI.run("@cf/meta/llama-3.1-8b-instruct-fp8", {
       messages: [{ role: "system", content: systemPrompt }, ...messages],
