@@ -3,7 +3,7 @@ export const siteConfig = {
   shortName: "KPI+",
   description:
     "Clear SaaS products and custom software for smoother hospitality operations and better customer experiences.",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://kpiplustech.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://kpiplustech-web.pskspace.workers.dev",
   email: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "support@thekpiplus.com",
   locale: "en_US",
   location: "Bangkok, Thailand",
