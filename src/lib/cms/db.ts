@@ -52,14 +52,14 @@ const columns = `id, slug, title, description, category, status, content_markdow
   featured_image_key, featured_image_alt, seo_title, seo_description, published_at,
   created_at, updated_at, author_email`;
 
-export async function listPublishedPosts() {
+export async function listPublishedPosts(): Promise<CmsPost[]> {
   const result = await (await database())
     .prepare(`SELECT ${columns} FROM posts WHERE status = 'published' AND published_at IS NOT NULL ORDER BY published_at DESC`)
     .all<PostRow>();
   return result.results.map(toPost);
 }
 
-export async function getPublishedPost(slug: string) {
+export async function getPublishedPost(slug: string): Promise<CmsPost | null> {
   const row = await (await database())
     .prepare(`SELECT ${columns} FROM posts WHERE slug = ? AND status = 'published' LIMIT 1`)
     .bind(slug)
@@ -67,12 +67,12 @@ export async function getPublishedPost(slug: string) {
   return row ? toPost(row) : null;
 }
 
-export async function listAllPosts() {
+export async function listAllPosts(): Promise<CmsPost[]> {
   const result = await (await database()).prepare(`SELECT ${columns} FROM posts ORDER BY updated_at DESC`).all<PostRow>();
   return result.results.map(toPost);
 }
 
-export async function getPostById(id: string) {
+export async function getPostById(id: string): Promise<CmsPost | null> {
   const row = await (await database()).prepare(`SELECT ${columns} FROM posts WHERE id = ? LIMIT 1`).bind(id).first<PostRow>();
   return row ? toPost(row) : null;
 }
@@ -113,7 +113,7 @@ export async function updatePost(id: string, input: PostInput, authorEmail: stri
   return getPostById(id);
 }
 
-export async function getDashboardStats() {
+export async function getDashboardStats(): Promise<{ posts: number; published: number; views: number; leads: number }> {
   const db = await database();
   const [posts, views, leads] = await db.batch<unknown>([
     db.prepare("SELECT COUNT(*) AS total, SUM(CASE WHEN status = 'published' THEN 1 ELSE 0 END) AS published FROM posts"),
