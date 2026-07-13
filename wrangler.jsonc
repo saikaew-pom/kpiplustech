@@ -29,7 +29,9 @@
   ],
   "vars": {
     "CMS_ADMIN_EMAIL": "support@thekpiplus.com",
-    "CMS_ACCESS_READY": "false",
+    "CMS_ACCESS_READY": "true",
+    "CF_ACCESS_TEAM_DOMAIN": "https://royal-snow-b91f.cloudflareaccess.com",
+    "CF_ACCESS_AUD": "adb5186f85090d0af3a0f7fd24b04f756e159a9e0eb6e715242d0358a3d92ac7",
     "MINIMAX_MODEL": "MiniMax-M2.7"
   },
   "observability": {
