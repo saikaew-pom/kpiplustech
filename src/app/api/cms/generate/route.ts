@@ -7,16 +7,6 @@ Create a useful, credible article using Donald Miller's soundbite strategy: one 
 Never invent statistics, clients, pricing, integrations, or guarantees. Return JSON only with these keys: title, slug, description, category, takeaway, contentMarkdown, seoTitle, seoDescription.
 The markdown must contain 3-5 sections using ## headings, practical paragraphs, and a short bullet list where useful. Aim for 700-1000 words.`;
 
-const articleSchema = {
-  type: "object",
-  properties: {
-    title: { type: "string" }, slug: { type: "string" }, description: { type: "string" },
-    category: { type: "string" }, takeaway: { type: "string" }, contentMarkdown: { type: "string" },
-    seoTitle: { type: "string" }, seoDescription: { type: "string" },
-  },
-  required: ["title", "slug", "description", "category", "takeaway", "contentMarkdown", "seoTitle", "seoDescription"],
-};
-
 function parseJson(text: string) {
   const clean = text.trim().replace(/^```(?:json)?/i, "").replace(/```$/, "").trim();
   const start = clean.indexOf("{");
@@ -71,7 +61,7 @@ export async function POST(request: Request) {
         messages: [{ role: "system", content: instructions }, { role: "user", content: topic }],
         max_tokens: 1900,
         temperature: 0.45,
-        response_format: { type: "json_schema", json_schema: articleSchema },
+        response_format: { type: "json_object" },
       }) as { response?: string | Record<string, string> };
       if (result.response && typeof result.response === "object") {
         return Response.json({ ...result.response, status: "draft", publishedAt: null, featuredImageKey: null, featuredImageAlt: null });
