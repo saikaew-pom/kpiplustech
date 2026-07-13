@@ -1,0 +1,113 @@
+:root {
+  /* Color */
+  --color-ink-950: #07111f;
+  --color-ink-900: #0d1b2a;
+  --color-ink-700: #334155;
+  --color-ink-600: #475569;
+  --color-ink-500: #64748b;
+  --color-mist-200: #dce5ef;
+  --color-mist-100: #eaf0f6;
+  --color-mist-50: #f5f8fb;
+  --color-white: #ffffff;
+  --color-signal-700: #064b70;
+  --color-signal-600: #075f8f;
+  --color-signal-500: #67d4ff;
+  --color-signal-100: #cff1ff;
+  --color-signal-50: #eaf8ff;
+  --color-teal-600: #007a6b;
+  --color-teal-500: #00a991;
+  --color-teal-100: #cff5ee;
+  --color-amber-600: #b45309;
+  --color-amber-100: #fef3c7;
+  --color-red-600: #c93636;
+  --color-red-100: #fee2e2;
+
+  /* Semantic color */
+  --color-bg: var(--color-white);
+  --color-bg-subtle: var(--color-mist-50);
+  --color-bg-inverse: var(--color-ink-950);
+  --color-text: var(--color-ink-950);
+  --color-text-muted: var(--color-ink-600);
+  --color-text-soft: var(--color-ink-500);
+  --color-border: var(--color-mist-100);
+  --color-border-strong: var(--color-mist-200);
+  --color-action: var(--color-signal-600);
+  --color-action-hover: var(--color-signal-700);
+  --color-focus: var(--color-signal-600);
+  --color-success: var(--color-teal-600);
+  --color-warning: var(--color-amber-600);
+  --color-danger: var(--color-red-600);
+  --gradient-signal: linear-gradient(135deg, #67d4ff 0%, #cff1ff 100%);
+
+  /* Typography */
+  --font-sans: "Manrope", "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "IBM Plex Mono", "SFMono-Regular", Consolas, monospace;
+  --font-size-xs: 0.8125rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.875rem;
+  --font-size-3xl: 2.75rem;
+  --font-size-4xl: 3.75rem;
+  --font-size-display: 4.5rem;
+
+  /* Spacing */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --space-30: 7.5rem;
+  --space-40: 10rem;
+
+  /* Shape and elevation */
+  --radius-sm: 0.5rem;
+  --radius-control: 0.625rem;
+  --radius-card: 1rem;
+  --radius-panel: 1.5rem;
+  --radius-pill: 999px;
+  --shadow-xs: 0 1px 2px rgb(7 17 31 / 5%);
+  --shadow-sm: 0 6px 18px rgb(7 17 31 / 7%);
+  --shadow-md: 0 16px 40px rgb(7 17 31 / 10%);
+  --shadow-signal: 0 16px 36px rgb(7 95 143 / 22%);
+
+  /* Motion */
+  --duration-fast: 140ms;
+  --duration-base: 200ms;
+  --duration-slow: 420ms;
+  --ease-enter: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-exit: cubic-bezier(0.4, 0, 1, 1);
+
+  /* Layout */
+  --content-max: 80rem;
+  --reading-max: 45rem;
+  --header-height: 4.5rem;
+}
+
+@media (max-width: 767px) {
+  :root {
+    --font-size-2xl: 1.625rem;
+    --font-size-3xl: 2rem;
+    --font-size-4xl: 2.5rem;
+    --font-size-display: 2.75rem;
+    --header-height: 4rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

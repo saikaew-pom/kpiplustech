@@ -1,0 +1,37 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "main": ".open-next/worker.js",
+  "name": "kpiplustech-web",
+  "compatibility_date": "2026-07-13",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "ai": {
+    "binding": "AI",
+    "remote": true
+  },
+  "d1_databases": [
+    {
+      "binding": "CMS_DB",
+      "database_name": "kpiplustech-cms",
+      "database_id": "0d344317-0b42-4eb0-99a1-cb74531302b3",
+      "remote": true
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "MEDIA_BUCKET",
+      "bucket_name": "kpiplustech-media",
+      "remote": true
+    }
+  ],
+  "vars": {
+    "CMS_ADMIN_EMAIL": "support@thekpiplus.com",
+    "MINIMAX_MODEL": "MiniMax-M2.7"
+  },
+  "observability": {
+    "enabled": true
+  }
+}
