@@ -35,6 +35,10 @@ function fallbackStream(message: string) {
   });
 }
 
+function cleanAssistantAnswer(message: string) {
+  return message.replace(/<think>[\s\S]*?<\/think>\s*/gi, "").trim();
+}
+
 async function minimaxAnswer(messages: IncomingMessage[], apiKey: string, model: string) {
   const response = await fetch("https://api.minimax.io/v1/chat/completions", {
     method: "POST",
@@ -45,7 +49,7 @@ async function minimaxAnswer(messages: IncomingMessage[], apiKey: string, model:
   const result = await response.json() as { choices?: Array<{ message?: { content?: string } }> };
   const answer = result.choices?.[0]?.message?.content?.trim();
   if (!answer) throw new Error("MiniMax returned no answer");
-  return answer;
+  return cleanAssistantAnswer(answer);
 }
 
 export async function POST(request: Request) {
@@ -88,14 +92,15 @@ export async function POST(request: Request) {
         console.warn("MiniMax chat unavailable; using Workers AI", error);
       }
     }
-    const stream = await env.AI.run("@cf/meta/llama-3.1-8b-instruct-fp8", {
+    const result = await env.AI.run("@cf/meta/llama-3.1-8b-instruct-fp8", {
       messages: [{ role: "system", content: systemPrompt }, ...messages],
       max_tokens: 420,
       temperature: 0.35,
-      stream: true,
-    });
+    }) as { response?: string };
+    const answer = cleanAssistantAnswer(result.response ?? "");
+    if (!answer) throw new Error("Workers AI returned no answer");
 
-    return new Response(stream, {
+    return new Response(fallbackStream(answer), {
       headers: {
         "Content-Type": "text/event-stream; charset=utf-8",
         "Cache-Control": "no-cache, no-transform",
