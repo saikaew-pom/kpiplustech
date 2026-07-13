@@ -29,6 +29,7 @@
   ],
   "vars": {
     "CMS_ADMIN_EMAIL": "support@thekpiplus.com",
+    "CMS_ACCESS_READY": "false",
     "MINIMAX_MODEL": "MiniMax-M2.7"
   },
   "observability": {

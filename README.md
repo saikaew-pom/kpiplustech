@@ -93,6 +93,8 @@ Connect `saikaew-pom/kpiplustech` in **Workers & Pages → kpiplustech-web → S
 
 The first connection requires approving Cloudflare's GitHub App. Runtime secrets remain in Worker Settings and are not copied into GitHub.
 
+The CMS intentionally ships with `CMS_ACCESS_READY=false`. After Cloudflare Access protects both `/studio*` and `/api/cms/*` for `support@thekpiplus.com`, change this variable to `true` and redeploy. This prevents a public admin API during the setup window.
+
 ## Current pages
 
 - Homepage and product overview
