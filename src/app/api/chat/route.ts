@@ -72,10 +72,17 @@ export async function POST(request: Request) {
 
   try {
     const { env } = await getCloudflareContext({ async: true });
-    const secrets = env as CloudflareEnv & { MINIMAX_API_KEY?: string };
+    const secrets = env as CloudflareEnv & {
+      MINIMAX_API_KEY?: string;
+      MINIMAX_MODEL?: string;
+    };
     if (secrets.MINIMAX_API_KEY) {
       try {
-        const answer = await minimaxAnswer(messages, secrets.MINIMAX_API_KEY, env.MINIMAX_MODEL);
+        const answer = await minimaxAnswer(
+          messages,
+          secrets.MINIMAX_API_KEY,
+          secrets.MINIMAX_MODEL ?? "MiniMax-M2.7"
+        );
         return new Response(fallbackStream(answer), { headers: { "Content-Type": "text/event-stream; charset=utf-8", "Cache-Control": "no-cache, no-transform", "X-Content-Type-Options": "nosniff" } });
       } catch (error) {
         console.warn("MiniMax chat unavailable; using Workers AI", error);

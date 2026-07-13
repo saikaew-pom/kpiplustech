@@ -47,14 +47,17 @@ export async function POST(request: Request) {
 
   try {
     const { env } = await getCloudflareContext({ async: true });
-    const secrets = env as CloudflareEnv & { MINIMAX_API_KEY?: string };
+    const secrets = env as CloudflareEnv & {
+      MINIMAX_API_KEY?: string;
+      MINIMAX_MODEL?: string;
+    };
     let text = "";
     if (secrets.MINIMAX_API_KEY) {
       try {
         const response = await fetch("https://api.minimax.io/v1/chat/completions", {
           method: "POST",
           headers: { authorization: `Bearer ${secrets.MINIMAX_API_KEY}`, "content-type": "application/json" },
-          body: JSON.stringify({ model: env.MINIMAX_MODEL, temperature: 0.45, response_format: { type: "json_object" }, messages: [{ role: "system", content: instructions }, { role: "user", content: topic }] }),
+          body: JSON.stringify({ model: secrets.MINIMAX_MODEL ?? "MiniMax-M2.7", temperature: 0.45, response_format: { type: "json_object" }, messages: [{ role: "system", content: instructions }, { role: "user", content: topic }] }),
         });
         if (!response.ok) throw new Error(`MiniMax returned ${response.status}`);
         const result = await response.json() as { choices?: Array<{ message?: { content?: string } }> };
