@@ -1,24 +1,24 @@
 ---
-title: "KPI Plus Blog Content Pillars and Editorial Voice"
-description: "Thailand-first, ASEAN-ready editorial strategy for KPI Plus services."
+title: "NAVA Blog Content Pillars and Editorial Voice"
+description: "Thailand-first, ASEAN-ready editorial strategy for NAVA services."
 market: "Thailand and ASEAN"
-owner: "KPI Plus Tech"
+owner: "NAVA"
 contact: "support@thekpiplus.com"
 status: "active"
 updated_at: "2026-07-14"
 ---
 
-# KPI Plus Blog Content Pillars and Editorial Voice
+# NAVA Blog Content Pillars and Editorial Voice
 
 ## Purpose
 
-This document is the source of truth for planning and writing KPI Plus blog content. It covers five product-led content pillars, 25 launch topics, their search intent, localized Thailand and ASEAN angles, conversion offers, tone of voice, emotional-writing guardrails, and a repeatable article structure.
+This document is the source of truth for planning and writing NAVA blog content. It covers five product-led content pillars, 25 launch topics, their search intent, localized Thailand and ASEAN angles, conversion offers, tone of voice, emotional-writing guardrails, and a repeatable article structure.
 
 ## Core brand promise
 
-> KPI Plus helps Thai service businesses attract more customers, deliver better experiences, and operate with less manual work.
+> NAVA helps Thai service businesses attract more customers, deliver better experiences, and operate with less manual work.
 
-Use this promise to keep the five service areas connected. KPI Plus is not selling five unrelated pieces of software. It is helping a business become easier to find, easier to buy from, and easier to operate.
+Use this promise to keep the five service areas connected. NAVA is not selling five unrelated pieces of software. It is helping a business become easier to find, easier to buy from, and easier to operate.
 
 ## Market rationale
 
@@ -96,7 +96,7 @@ Thai SMEs, hotels, clinics, professional services, manufacturers, tourism busine
 
 ## Business objective
 
-Position KPI Plus as the practical AI website and search-visibility partner for Thai businesses, not another agency selling attractive pages that do not generate enquiries.
+Position NAVA as the practical AI website and search-visibility partner for Thai businesses, not another agency selling attractive pages that do not generate enquiries.
 
 ## Topic plan
 
@@ -252,7 +252,7 @@ Cover multiple currencies, VAT or GST, languages, company entities, approval per
 
 ## Voice definition
 
-KPI Plus sounds like a calm, commercially minded technology partner who understands operations. The voice is clear enough for a busy owner, credible enough for a technical buyer, and human enough that it never sounds like software documentation wearing a necktie.
+NAVA sounds like a calm, commercially minded technology partner who understands operations. The voice is clear enough for a busy owner, credible enough for a technical buyer, and human enough that it never sounds like software documentation wearing a necktie.
 
 The reader should feel:
 
@@ -356,7 +356,7 @@ Rules:
 
 ## Encouragement: make progress feel possible
 
-Treat the customer as the capable hero and KPI Plus as the guide. Acknowledge the complexity, then simplify the first step.
+Treat the customer as the capable hero and NAVA as the guide. Acknowledge the complexity, then simplify the first step.
 
 Pattern:
 
@@ -567,6 +567,6 @@ Publish these first to introduce every service while targeting recognizable prob
 - Rotate pillars so the site demonstrates broad capability.
 - Publish a Thailand-first article before its ASEAN comparison article.
 - Refresh regulatory, platform, pricing, and product-comparison articles at least every six months.
-- Add original case studies and benchmark data as KPI Plus gains customers.
+- Add original case studies and benchmark data as NAVA gains customers.
 
 The topic themes in this document are based on customer intent and current market signals. Validate exact search volumes, ranking difficulty, and seasonal interest before locking the long-term editorial calendar.

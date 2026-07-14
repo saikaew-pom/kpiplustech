@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     "Give hotel guests a clear digital check-in before arrival while your front desk sees what is complete and what needs attention.",
   alternates: { canonical: "/products/hotel-self-check-in" },
   openGraph: {
-    title: "A smoother hotel arrival | KPI Plus Tech",
+    title: "A smoother hotel arrival | NAVA",
     description:
       "Digital hotel self-check-in that reduces repetitive front-desk work and keeps guests informed.",
     url: "/products/hotel-self-check-in",
@@ -118,7 +118,7 @@ export default function HotelSelfCheckinPage() {
   const productJsonLd = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    name: "KPI Plus Tech Hotel Self-Check-In",
+    name: "NAVA Hotel Self-Check-In",
     applicationCategory: "BusinessApplication",
     operatingSystem: "Web",
     url: `${siteConfig.url}/products/hotel-self-check-in`,

@@ -23,7 +23,7 @@ export default async function StudioLayout({ children }: { children: React.React
   return (
     <main id="main-content" className="studio-shell">
       <aside className="studio-sidebar">
-        <div><span>KPI+</span><strong>Content Studio</strong></div>
+        <div><span>NAVA</span><strong>Content Studio</strong></div>
         <nav aria-label="Studio navigation">
           <Link href="/studio">Overview</Link>
           <Link href="/studio/posts/new">New article</Link>

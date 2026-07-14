@@ -2,9 +2,9 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "KPI Plus Tech",
-    short_name: "KPI+",
-    description: "Clear software for smoother operations.",
+    name: "NAVA",
+    short_name: "NAVA",
+    description: "Clear software for the work behind great customer experiences.",
     start_url: "/",
     display: "standalone",
     background_color: "#ffffff",

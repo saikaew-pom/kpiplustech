@@ -1,8 +1,8 @@
 export const siteConfig = {
-  name: "KPI Plus Tech",
-  shortName: "KPI+",
+  name: "NAVA",
+  shortName: "NAVA",
   description:
-    "Clear SaaS products and custom software for smoother hospitality operations and better customer experiences.",
+    "Clear software for the work behind great customer experiences across Thailand and ASEAN.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://kpiplustech-web.pskspace.workers.dev",
   email: process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "support@thekpiplus.com",
   locale: "en_US",

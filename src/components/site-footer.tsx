@@ -62,7 +62,7 @@ export function SiteFooter() {
       </div>
 
       <div className="shell footer-bottom">
-        <p>© {new Date().getFullYear()} KPI Plus Tech. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} NAVA. All rights reserved.</p>
         <div>
           <Link href="/privacy">Privacy</Link>
           <Link href="/terms">Terms</Link>
