@@ -365,7 +365,7 @@ Self-check-in should not make an independent hotel feel less human. It should gi
 
 Before buying hardware, map one week of arrivals. Count the repeated steps, exceptions, waiting time, and data corrections. That evidence will tell you whether to begin with mobile check-in, a kiosk, a hybrid flow—or a simpler process fix.
 
-Not sure where the pressure really sits? Request a hotel self-check-in workflow assessment from NAVA. We will map the arrival journey, identify repeated work and integration risks, and show where automation would—and would not—help.
+Not sure where the pressure really sits? Request a hotel self-check-in workflow assessment from KPI Plus. We will map the arrival journey, identify repeated work and integration risks, and show where automation would—and would not—help.
 
 ## Sources reviewed
 

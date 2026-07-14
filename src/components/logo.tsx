@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function Logo({ inverse = false }: { inverse?: boolean }) {
   return (
-    <Link className="brand" href="/" aria-label="NAVA home">
+    <Link className="brand" href="/" aria-label="KPI Plus Tech home">
       <svg
         className="brand-mark"
         aria-hidden="true"
@@ -10,11 +10,22 @@ export function Logo({ inverse = false }: { inverse?: boolean }) {
         fill="none"
       >
         <rect width="40" height="40" rx="12" fill="#071722" />
-        <path d="M9 29V11l12 10V11l10 8v10L21 21v8L9 29Z" fill="#67D4FF" />
-        <path d="M21 11v10l10-8v10l-10 6" fill="#FFFFFF" opacity="0.96" />
+        <path
+          d="M10.5 11.5v17M11 20h6.5m0 0 7-8.5M17.5 20l7 8.5"
+          stroke="#67D4FF"
+          strokeWidth="3.2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <path
+          d="M29.5 13v8m-4-4h8"
+          stroke="white"
+          strokeWidth="2.5"
+          strokeLinecap="round"
+        />
       </svg>
       <span className={inverse ? "brand-name brand-name-inverse" : "brand-name"}>
-        NAVA
+        KPI Plus Tech
       </span>
     </Link>
   );

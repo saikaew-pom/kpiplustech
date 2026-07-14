@@ -1,10 +1,10 @@
-# NAVA — Website Building Plan
+# KPI Plus Tech — Website Building Plan
 
 Version 1.0 · July 2026
 
 ## 1. Executive direction
 
-Build NAVA as a fast, content-led Next.js website deployed to Cloudflare Workers. The website should present the company as a clear software partner with a focused hospitality specialty, not as a catalogue of unrelated technology.
+Build KPI Plus Tech as a fast, content-led Next.js website deployed to Cloudflare Workers. The website should present the company as a clear software partner with a focused hospitality specialty, not as a catalogue of unrelated technology.
 
 The website has four business goals:
 
@@ -31,7 +31,7 @@ The website has four business goals:
 
 **Supporting copy:**
 
-> NAVA builds hotel self-check-in, reputation, CRM, ERP, and AI-powered web systems that connect your customer experience with your daily operations.
+> KPI Plus Tech builds hotel self-check-in, reputation, CRM, ERP, and AI-powered web systems that connect your customer experience with your daily operations.
 
 **Primary CTA:** `Book a demo`
 
@@ -69,17 +69,17 @@ Each product still receives its own indexable detail page. The paths are an info
 
 Use a small set of repeated, memorable messages throughout the website, sales decks, demos, and chatbot. This follows Donald Miller's principle that soundbites reduce the mental work required to understand an offer.
 
-### Five provisional NAVA soundbites
+### Five provisional KPI Plus Tech soundbites
 
 1. **Problem:** `Disconnected tools create slow work and inconsistent customer experiences.`
 2. **Empathy:** `Your team should spend time serving customers—not copying data between systems.`
-3. **Answer:** `NAVA connects guest journeys, customer relationships, and operations in clear digital systems.`
+3. **Answer:** `KPI Plus Tech connects guest journeys, customer relationships, and operations in clear digital systems.`
 4. **Change:** `Move from manual follow-up and scattered tools to workflows your team can trust.`
 5. **Result:** `Work faster, serve customers better, and see what is happening across your business.`
 
 ### Messaging rules
 
-- The customer is the main character; NAVA is the guide.
+- The customer is the main character; KPI Plus Tech is the guide.
 - Lead with a recognizable business problem, not a framework or technology.
 - Use one promise in the hero. Do not name all features above the fold.
 - Follow each claim with proof: a number, product screen, customer result, workflow, or demonstration.
@@ -209,7 +209,7 @@ Use this structure:
 
 - Client situation
 - What was getting in the way
-- What NAVA changed
+- What KPI Plus Tech changed
 - Two measured results
 - Delivery timeline
 
@@ -582,7 +582,7 @@ This plan interprets GEO primarily as **Generative Engine Optimization**, while 
 - Publish named authors, reviewer credentials, update dates, and editorial policy.
 - Cite primary sources and clearly distinguish facts, experience, and opinion.
 - Use comparison tables, definitions, steps, limitations, and FAQs where helpful.
-- Create stable entity pages for NAVA, each product, and each author.
+- Create stable entity pages for KPI Plus Tech, each product, and each author.
 - Keep product names, descriptions, company facts, and contact information consistent.
 - Add JSON-LD that matches visible content.
 - Publish `/llms.txt` as an additional discovery aid, not a replacement for crawlable HTML.
@@ -791,7 +791,7 @@ Additional rules:
 
 ### Messaging
 
-- A new visitor can explain what NAVA does after five seconds.
+- A new visitor can explain what KPI Plus Tech does after five seconds.
 - Hotel self-check-in is clearly presented as the flagship specialty.
 - The three buyer paths are understood without opening a menu.
 - Every important claim has evidence or is labeled as a capability rather than a result.

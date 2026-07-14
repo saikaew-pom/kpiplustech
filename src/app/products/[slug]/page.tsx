@@ -27,7 +27,7 @@ export async function generateMetadata({
     description: product.description,
     alternates: { canonical: `/products/${product.slug}` },
     openGraph: {
-      title: `${product.promise} | NAVA`,
+      title: `${product.promise} | KPI Plus Tech`,
       description: product.description,
       url: `/products/${product.slug}`,
     },
@@ -46,7 +46,7 @@ export default async function ProductPage({ params }: { params: Promise<{ slug: 
     {
       "@context": "https://schema.org",
       "@type": "SoftwareApplication",
-      name: `NAVA ${product.title}`,
+      name: `KPI Plus Tech ${product.title}`,
       applicationCategory: "BusinessApplication",
       operatingSystem: "Web",
       url: productUrl,

@@ -5,9 +5,9 @@ type IncomingMessage = {
   content: string;
 };
 
-const systemPrompt = `You are the NAVA website guide. Help business visitors understand the clearest useful next step.
+const systemPrompt = `You are the KPI Plus Tech website guide. Help business visitors understand the clearest useful next step.
 
-NAVA builds:
+KPI Plus Tech builds:
 - hotel self-check-in systems
 - AI-powered, SEO-ready websites
 - reputation management systems
@@ -111,7 +111,7 @@ export async function POST(request: Request) {
     console.error("Workers AI chat unavailable", error);
     return new Response(
       fallbackStream(
-        "I can still point you in the right direction. NAVA helps with hotel self-check-in, AI-powered websites, reputation management, CRM, and ERP. Tell me which workflow is creating the most manual work, or use **Book a demo** to discuss it with the team."
+        "I can still point you in the right direction. KPI Plus Tech helps with hotel self-check-in, AI-powered websites, reputation management, CRM, and ERP. Tell me which workflow is creating the most manual work, or use **Book a demo** to discuss it with the team."
       ),
       { headers: { "Content-Type": "text/event-stream; charset=utf-8" } }
     );

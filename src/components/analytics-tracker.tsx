@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 
 function sessionId() {
-  const key = "nava_session";
+  const key = "kpiplus_session";
   let id = sessionStorage.getItem(key);
   if (!id) { id = crypto.randomUUID(); sessionStorage.setItem(key, id); }
   return id;

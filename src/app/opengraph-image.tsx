@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "NAVA — Clear software for smoother operations";
+export const alt = "KPI Plus Tech — Clear software for smoother operations";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -49,9 +49,9 @@ export default function OpenGraphImage() {
               fontWeight: 800,
             }}
           >
-            N
+            K+
           </div>
-          <span style={{ fontSize: 28, fontWeight: 700 }}>NAVA</span>
+          <span style={{ fontSize: 28, fontWeight: 700 }}>KPI Plus Tech</span>
         </div>
 
         <div style={{ display: "flex", flexDirection: "column", gap: 24, maxWidth: 880 }}>

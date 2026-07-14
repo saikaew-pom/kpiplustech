@@ -24,10 +24,10 @@ import { siteConfig } from "@/lib/site";
 export const metadata: Metadata = {
   title: "SaaS Products and Custom Business Software",
   description:
-    "NAVA builds hotel self-check-in, reputation, CRM, ERP, and AI-powered web systems that reduce manual work and improve customer experiences.",
+    "KPI Plus Tech builds hotel self-check-in, reputation, CRM, ERP, and AI-powered web systems that reduce manual work and improve customer experiences.",
   alternates: { canonical: "/" },
   openGraph: {
-    title: "Run your business with less manual work | NAVA",
+    title: "Run your business with less manual work | KPI Plus Tech",
     description:
       "Clear software for smoother operations and better customer experiences.",
     url: "/",
@@ -344,12 +344,11 @@ export default function Home() {
         <section className="section" id="about">
           <div className="shell confidence-grid">
             <div className="confidence-panel">
-              <span className="section-kicker">WHY NAVA EXISTS</span>
-              <h2>Less operational noise. More room to grow.</h2>
+              <span className="section-kicker">TECHNICAL CONFIDENCE</span>
+              <h2>Software your team can keep using and improving.</h2>
               <p>
-                NAVA began with a simple observation: businesses lose momentum
-                in the handoffs between promise and delivery. We make those
-                handoffs clearer, calmer, and easier to improve.
+                Clear ownership, practical integrations, secure delivery, and
+                support built around the way your operation works.
               </p>
               <div className="confidence-tags">
                 <span>Cloud-first</span><span>API-ready</span><span>Accessible</span><span>Search-ready</span>
