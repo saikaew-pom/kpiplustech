@@ -344,11 +344,13 @@ export default function Home() {
         <section className="section" id="about">
           <div className="shell confidence-grid">
             <div className="confidence-panel">
-              <span className="section-kicker">TECHNICAL CONFIDENCE</span>
-              <h2>Software your team can keep using and improving.</h2>
+              <span className="section-kicker">ABOUT US</span>
+              <h2>We make the work behind great experiences feel simpler.</h2>
               <p>
-                Clear ownership, practical integrations, secure delivery, and
-                support built around the way your operation works.
+                We started with a simple observation: businesses lose momentum
+                in the handoffs between promise and delivery. Our job is to
+                remove the repetitive work, connect the systems that matter,
+                and leave people more time for judgement, care, and growth.
               </p>
               <div className="confidence-tags">
                 <span>Cloud-first</span><span>API-ready</span><span>Accessible</span><span>Search-ready</span>
