@@ -110,7 +110,7 @@ export default function AboutPage() {
           </div>
         </section>
 
-        <section className="section section-dark">
+        <section className="section">
           <div className="shell insight-shell">
             <div>
               <span className="dark-kicker">WHAT WE BELIEVE</span>
