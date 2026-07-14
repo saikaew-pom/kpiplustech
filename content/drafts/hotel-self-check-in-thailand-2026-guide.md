@@ -3,13 +3,13 @@ title: "Hotel Self-Check-in in Thailand: The Complete 2026 Guide for Independent
 slug: "hotel-self-check-in-thailand-2026-guide"
 description: "A practical Thailand-first guide to choosing, integrating, and measuring hotel self-check-in without losing the human welcome."
 category: "Hotel operations"
-status: "draft"
+status: "published"
 takeaway: "Automate the predictable arrival steps. Keep your team free for the moments that need Thai hospitality."
 featured_image_key: "articles/2026-07-14/hotel-self-check-in-thailand-2026.jpg"
 featured_image_alt: "Traveler using a hotel self-check-in kiosk while a Thai staff member stands nearby to help"
 seo_title: "Hotel Self-Check-in Thailand: Complete 2026 Guide"
 seo_description: "A practical guide to hotel self-check-in in Thailand, covering kiosks, mobile check-in, PMS integration, TM30, PDPA, ROI, and implementation."
-published_at: null
+published_at: "2026-07-14T11:42:04.021Z"
 author_email: "support@thekpiplus.com"
 ---
 

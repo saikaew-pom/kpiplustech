@@ -1,6 +1,11 @@
+import { listPublishedPosts } from "@/lib/cms/db";
 import { siteConfig } from "@/lib/site";
 
-export function GET() {
+export const dynamic = "force-dynamic";
+
+export async function GET() {
+  const posts = await listPublishedPosts();
+  const insights = posts.map((post) => `- [${post.title}](${siteConfig.url}/insights/${post.slug}): ${post.description}`).join("\n");
   const body = `# ${siteConfig.name}
 
 > Clear SaaS products and custom software for smoother hospitality operations and better customer experiences.
@@ -15,6 +20,10 @@ export function GET() {
 - [ERP](${siteConfig.url}/products/erp): Connected finance, inventory, people, and operations workflows.
 - [Insights](${siteConfig.url}/insights): Practical articles on hospitality, digital growth, and connected operations.
 - [Contact](${siteConfig.url}/contact): Product demo and software project enquiries.
+
+## Published insights
+
+${insights}
 
 ## Products
 

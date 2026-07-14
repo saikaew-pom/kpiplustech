@@ -1,10 +1,13 @@
 import type { MetadataRoute } from "next";
 
-import { posts } from "@/lib/posts";
+import { listPublishedPosts } from "@/lib/cms/db";
 import { products } from "@/lib/products";
 import { siteConfig } from "@/lib/site";
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export const dynamic = "force-dynamic";
+
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+  const posts = await listPublishedPosts();
   const routes = [
     { path: "", priority: 1, changeFrequency: "weekly" as const },
     {
@@ -37,6 +40,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(post.updatedAt),
     changeFrequency: "monthly",
     priority: 0.65,
+    images: post.featuredImageKey ? [`${siteConfig.url}/media/${post.featuredImageKey}`] : undefined,
   }));
 
   return [
