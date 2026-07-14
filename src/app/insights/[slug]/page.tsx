@@ -16,12 +16,27 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const post = await getPublishedPost(slug);
   if (!post) return {};
+  const image = post.featuredImageKey ? `${siteConfig.url}/media/${post.featuredImageKey}` : undefined;
 
   return {
-    title: post.title,
-    description: post.description,
+    title: post.seoTitle || post.title,
+    description: post.seoDescription || post.description,
     alternates: { canonical: `/insights/${post.slug}` },
-    openGraph: { type: "article", title: post.seoTitle || post.title, description: post.seoDescription || post.description, url: `/insights/${post.slug}`, publishedTime: post.publishedAt ?? undefined, modifiedTime: post.updatedAt },
+    openGraph: {
+      type: "article",
+      title: post.seoTitle || post.title,
+      description: post.seoDescription || post.description,
+      url: `/insights/${post.slug}`,
+      publishedTime: post.publishedAt ?? undefined,
+      modifiedTime: post.updatedAt,
+      images: image ? [{ url: image, width: 1600, height: 900, alt: post.featuredImageAlt || post.title }] : undefined,
+    },
+    twitter: {
+      card: image ? "summary_large_image" : "summary",
+      title: post.seoTitle || post.title,
+      description: post.seoDescription || post.description,
+      images: image ? [image] : undefined,
+    },
   };
 }
 
@@ -38,6 +53,7 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
     description: post.description,
     datePublished: post.publishedAt ?? post.createdAt,
     dateModified: post.updatedAt,
+    image: post.featuredImageKey ? `${siteConfig.url}/media/${post.featuredImageKey}` : undefined,
     mainEntityOfPage: postUrl,
     author: { "@type": "Organization", name: siteConfig.name, url: siteConfig.url },
     publisher: { "@type": "Organization", name: siteConfig.name, url: siteConfig.url },
