@@ -5,14 +5,10 @@ import { notFound } from "next/navigation";
 
 import { ButtonLink } from "@/components/button-link";
 import { StructuredData } from "@/components/structured-data";
-import { getProduct, products } from "@/lib/products";
+import { getProduct } from "@/lib/products";
 import { siteConfig } from "@/lib/site";
 
-export const dynamicParams = false;
-
-export function generateStaticParams() {
-  return products.map(({ slug }) => ({ slug }));
-}
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({
   params,
@@ -23,7 +19,7 @@ export async function generateMetadata({
   if (!product) return {};
 
   return {
-    title: product.title,
+    title: { absolute: `${product.title} | NAVA` },
     description: product.description,
     alternates: { canonical: `/products/${product.slug}` },
     openGraph: {

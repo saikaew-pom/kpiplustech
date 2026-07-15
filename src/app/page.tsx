@@ -22,7 +22,7 @@ import { StructuredData } from "@/components/structured-data";
 import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "SaaS Products and Custom Business Software",
+  title: { absolute: "NAVA | SaaS Products and Custom Business Software" },
   description:
     "NAVA builds hotel self-check-in, reputation, CRM, ERP, and AI-powered web systems that reduce manual work and improve customer experiences.",
   alternates: { canonical: "/" },
