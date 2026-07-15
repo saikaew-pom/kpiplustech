@@ -28,8 +28,8 @@ const plexMono = IBM_Plex_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: "KPI Plus Tech | Clear Software for Smoother Operations",
-    template: "%s | KPI Plus Tech",
+    default: "NAVA | Clear Software for Smoother Operations",
+    template: "%s | NAVA",
   },
   description: siteConfig.description,
   applicationName: siteConfig.name,
@@ -50,13 +50,13 @@ export const metadata: Metadata = {
     type: "website",
     locale: siteConfig.locale,
     siteName: siteConfig.name,
-    title: "KPI Plus Tech | Clear Software for Smoother Operations",
+    title: "NAVA | Clear Software for Smoother Operations",
     description: siteConfig.description,
     url: siteConfig.url,
   },
   twitter: {
     card: "summary_large_image",
-    title: "KPI Plus Tech | Clear Software for Smoother Operations",
+    title: "NAVA | Clear Software for Smoother Operations",
     description: siteConfig.description,
   },
   robots: {

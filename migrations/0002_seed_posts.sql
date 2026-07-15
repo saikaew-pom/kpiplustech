@@ -23,7 +23,7 @@ The goal is not fewer conversations. It is fewer repetitive conversations, leavi
 
 Visitors do not begin by reading. They begin by deciding whether the page is relevant. Every section should help them make the next small decision with less effort.
 
-That is why clear soundbites work: they give people language they can understand, remember, and repeat.
+That is why clear messages work: they give people language they can understand, remember, and repeat.
 
 ## Answer these five questions
 

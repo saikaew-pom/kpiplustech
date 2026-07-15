@@ -9,7 +9,7 @@ import { siteConfig } from "@/lib/site";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn why KPI Plus Tech builds clear software for the work behind great customer experiences across Thailand and ASEAN.",
+    "Learn why NAVA builds clear software for the work behind great customer experiences across Thailand and ASEAN.",
   alternates: { canonical: "/about" },
 };
 
@@ -35,7 +35,7 @@ export default function AboutPage() {
   const organizationJsonLd = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
-    name: "About KPI Plus Tech",
+    name: "About NAVA",
     url: `${siteConfig.url}/about`,
     description: metadata.description,
     about: {
@@ -65,7 +65,7 @@ export default function AboutPage() {
             </div>
             <div className="contact-card">
               <Sparkles size={24} aria-hidden="true" />
-              <span>OUR SOUND BITE</span>
+              <span>OUR PROMISE</span>
               <h2>Make the work behind great experiences feel simpler.</h2>
               <p>Less operational noise gives good teams more room to notice, decide, and grow.</p>
             </div>
@@ -85,7 +85,7 @@ export default function AboutPage() {
                 customer waiting for someone to find the answer.
               </p>
               <p>
-                We started KPI Plus Tech to make those moments clearer. From
+                We started NAVA to make those moments clearer. From
                 hotel self-check-in and reputation management to AI-powered
                 websites, CRM, and ERP, we turn repeated work into dependable
                 workflows while keeping people close to the decisions that

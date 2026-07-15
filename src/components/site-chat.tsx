@@ -97,7 +97,7 @@ export function SiteChat() {
   return (
     <div className="site-chat">
       {open ? (
-        <section className="chat-panel" aria-label="KPI Plus Tech website assistant">
+        <section className="chat-panel" aria-label="NAVA website assistant">
           <header className="chat-header">
             <span><Bot size={19} aria-hidden="true" /></span>
             <div><strong>Website guide</strong><small>AI-powered guidance</small></div>

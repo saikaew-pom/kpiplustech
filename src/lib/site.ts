@@ -1,6 +1,6 @@
 export const siteConfig = {
-  name: "KPI Plus Tech",
-  shortName: "KPI+",
+  name: "NAVA",
+  shortName: "NAVA",
   description:
     "Clear SaaS products and custom software for smoother hospitality operations and better customer experiences.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://kpiplustech-web.pskspace.workers.dev",

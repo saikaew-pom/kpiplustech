@@ -1,24 +1,24 @@
 ---
-title: "KPI Plus Blog Content Pillars and Editorial Voice"
-description: "Thailand-first, ASEAN-ready editorial strategy for KPI Plus services."
+title: "NAVA Blog Content Pillars and Editorial Voice"
+description: "Thailand-first, ASEAN-ready editorial strategy for NAVA services."
 market: "Thailand and ASEAN"
-owner: "KPI Plus Tech"
+owner: "NAVA"
 contact: "support@thekpiplus.com"
 status: "active"
 updated_at: "2026-07-14"
 ---
 
-# KPI Plus Blog Content Pillars and Editorial Voice
+# NAVA Blog Content Pillars and Editorial Voice
 
 ## Purpose
 
-This document is the source of truth for planning and writing KPI Plus blog content. It covers five product-led content pillars, 25 launch topics, their search intent, localized Thailand and ASEAN angles, conversion offers, tone of voice, emotional-writing guardrails, and a repeatable article structure.
+This document is the source of truth for planning and writing NAVA blog content. It covers five product-led content pillars, 25 launch topics, their search intent, localized Thailand and ASEAN angles, conversion offers, tone of voice, emotional-writing guardrails, and a repeatable article structure.
 
 ## Core brand promise
 
-> KPI Plus helps Thai service businesses attract more customers, deliver better experiences, and operate with less manual work.
+> NAVA helps Thai service businesses attract more customers, deliver better experiences, and operate with less manual work.
 
-Use this promise to keep the five service areas connected. KPI Plus is not selling five unrelated pieces of software. It is helping a business become easier to find, easier to buy from, and easier to operate.
+Use this promise to keep the five service areas connected. NAVA is not selling five unrelated pieces of software. It is helping a business become easier to find, easier to buy from, and easier to operate.
 
 ## Market rationale
 
@@ -96,7 +96,7 @@ Thai SMEs, hotels, clinics, professional services, manufacturers, tourism busine
 
 ## Business objective
 
-Position KPI Plus as the practical AI website and search-visibility partner for Thai businesses, not another agency selling attractive pages that do not generate enquiries.
+Position NAVA as the practical AI website and search-visibility partner for Thai businesses, not another agency selling attractive pages that do not generate enquiries.
 
 ## Topic plan
 
@@ -252,7 +252,7 @@ Cover multiple currencies, VAT or GST, languages, company entities, approval per
 
 ## Voice definition
 
-KPI Plus sounds like a calm, commercially minded technology partner who understands operations. The voice is clear enough for a busy owner, credible enough for a technical buyer, and human enough that it never sounds like software documentation wearing a necktie.
+NAVA sounds like a calm, commercially minded technology partner who understands operations. The voice is clear enough for a busy owner, credible enough for a technical buyer, and human enough that it never sounds like software documentation wearing a necktie.
 
 The reader should feel:
 
@@ -356,7 +356,7 @@ Rules:
 
 ## Encouragement: make progress feel possible
 
-Treat the customer as the capable hero and KPI Plus as the guide. Acknowledge the complexity, then simplify the first step.
+Treat the customer as the capable hero and NAVA as the guide. Acknowledge the complexity, then simplify the first step.
 
 Pattern:
 
@@ -396,7 +396,7 @@ The exact balance may change by article. Compliance content should use less humo
 
 - Write for a busy Thai SME owner or department leader, not for another software vendor.
 - Use plain English or natural professional Thai.
-- Aim for sentences of roughly 10–20 words, with occasional shorter soundbites.
+- Aim for sentences of roughly 10–20 words, with occasional shorter memorable lines.
 - Keep paragraphs to one to three sentences.
 - Use one idea per paragraph.
 - Prefer active voice.
@@ -407,9 +407,9 @@ The exact balance may change by article. Compliance content should use less humo
 - Use bold text sparingly to support scanning.
 - Avoid exclamation marks unless genuine excitement warrants one. One is usually enough.
 
-## Soundbite strategy
+## Main takeaway
 
-Each article needs one short, memorable idea that a reader can repeat to a colleague. The soundbite should express the problem, solution, or change in perspective.
+Each article needs one short, memorable takeaway that a reader can repeat to a colleague. It should express the problem, solution, or change in perspective.
 
 Useful patterns:
 
@@ -490,7 +490,7 @@ Example:
 
 > Your team replied to the lead. The problem is that it happened three days later, after the customer had already booked a demonstration elsewhere. Slow follow-up rarely looks dramatic inside a busy company. It simply appears later as a quiet gap in the sales report.
 
-## 3. Soundbite takeaway
+## 3. Main takeaway
 
 State the article's memorable idea in one or two sentences.
 
@@ -528,14 +528,14 @@ Example:
 
 Use the following as the default instruction when generating a first draft:
 
-> Write for a busy Thai SME owner, hotel operator, or department leader. Use a calm expert voice, plain language, short paragraphs, and descriptive headings. Begin with a familiar operational problem and show its credible cost. Create one memorable soundbite. Use a small amount of observational humor about shared business frustrations, never about the reader, employees, guests, culture, age, language, regulators, or competitors. Use emotion responsibly: reveal a real risk, show a credible commercial upside, encourage the reader, and finish with a practical next step. Do not exaggerate, shame, make unsupported claims, or promise guaranteed results. Use Thailand-specific examples and add clearly labeled ASEAN comparisons where relevant. Cite current authoritative sources for laws, regulations, platform behavior, statistics, and changing market facts. End with one CTA only.
+> Write for a busy Thai SME owner, hotel operator, or department leader. Use a calm expert voice, plain language, short paragraphs, and descriptive headings. Begin with a familiar operational problem and show its credible cost. Create one memorable takeaway. Use a small amount of observational humor about shared business frustrations, never about the reader, employees, guests, culture, age, language, regulators, or competitors. Use emotion responsibly: reveal a real risk, show a credible commercial upside, encourage the reader, and finish with a practical next step. Do not exaggerate, shame, make unsupported claims, or promise guaranteed results. Use Thailand-specific examples and add clearly labeled ASEAN comparisons where relevant. Cite current authoritative sources for laws, regulations, platform behavior, statistics, and changing market facts. End with one CTA only.
 
 ## AI draft quality checklist
 
 Before publishing, confirm that the article:
 
 - Solves one identifiable reader problem.
-- Has one repeatable soundbite.
+- Has one repeatable main takeaway.
 - Contains a real Thailand-specific example or workflow.
 - Separates Thailand facts from ASEAN comparisons.
 - Uses emotional tension without exaggeration.
@@ -567,6 +567,6 @@ Publish these first to introduce every service while targeting recognizable prob
 - Rotate pillars so the site demonstrates broad capability.
 - Publish a Thailand-first article before its ASEAN comparison article.
 - Refresh regulatory, platform, pricing, and product-comparison articles at least every six months.
-- Add original case studies and benchmark data as KPI Plus gains customers.
+- Add original case studies and benchmark data as NAVA gains customers.
 
 The topic themes in this document are based on customer intent and current market signals. Validate exact search volumes, ranking difficulty, and seasonal interest before locking the long-term editorial calendar.

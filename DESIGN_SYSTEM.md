@@ -1,10 +1,10 @@
-# KPI Plus Tech — Website Design System
+# NAVA — Website Design System
 
 Version 1.0 · July 2026 · Website and marketing surfaces
 
 ## 1. Purpose
 
-This system defines how KPI Plus Tech should look, sound, and behave across its SaaS and software-development website. It takes inspiration from Channex's clarity, generous spacing, product-led proof, and developer-friendly presentation without copying its brand or page composition.
+This system defines how NAVA should look, sound, and behave across its SaaS and software-development website. It takes inspiration from Channex's clarity, generous spacing, product-led proof, and developer-friendly presentation without copying its brand or page composition.
 
 The intended impression is:
 
@@ -12,7 +12,7 @@ The intended impression is:
 
 The system should help the website do three jobs:
 
-1. Explain what KPI Plus Tech builds in under ten seconds.
+1. Explain what NAVA builds in under ten seconds.
 2. Prove technical capability without overwhelming non-technical buyers.
 3. Move qualified visitors toward a project conversation or product demo.
 
@@ -27,7 +27,7 @@ The system should help the website do three jobs:
 - **Repeated, consistent action.** Primary and secondary calls to action appear where intent naturally increases.
 - **Technical confidence.** Documentation, sandbox, security, and system-status links support developer evaluation.
 
-### What KPI Plus Tech should improve
+### What NAVA should improve
 
 - Avoid a generic “gradient SaaS” identity. Use the gradient as a signal, not as decoration everywhere.
 - Organize the story around buyer problems and outcomes before listing technical capabilities.
@@ -40,7 +40,7 @@ The system should help the website do three jobs:
 
 ### Positioning
 
-KPI Plus Tech designs and builds practical SaaS products, internal systems, integrations, and automation for growing businesses.
+NAVA designs and builds practical SaaS products, internal systems, integrations, and automation for growing businesses.
 
 ### Brand promise
 
@@ -67,7 +67,7 @@ KPI Plus Tech designs and builds practical SaaS products, internal systems, inte
 
 The core visual idea is **Signal through complexity**: dark ink, clean white space, a light-blue brand signal, and a fresh teal success color. Use fine grid lines, connected nodes, small data labels, terminal details, and product crops sparingly to suggest systems thinking.
 
-Do not recreate Channex's blue-to-purple gradient. KPI Plus Tech uses light blue as an ownable field color and a deeper blue for accessible actions.
+Do not recreate Channex's blue-to-purple gradient. NAVA uses light blue as an ownable field color and a deeper blue for accessible actions.
 
 ### Color tokens
 
@@ -398,7 +398,7 @@ Proof strip: `Business-first discovery` · `Senior product team` · `Built for l
 - Lead with the outcome; explain the technology second.
 - Write in direct, conversational English.
 - Prefer short sentences and concrete nouns.
-- Use “we” for KPI Plus Tech and “you” for the visitor.
+- Use “we” for NAVA and “you” for the visitor.
 - Name trade-offs honestly. Precision signals expertise.
 - Use technical terms when they help the intended reader; define them when they do not.
 
@@ -517,4 +517,4 @@ Review the system quarterly and after any significant product or positioning cha
 
 ## 17. Reference boundary
 
-Channex is a useful UX reference for hierarchy, proof placement, developer credibility, and conversion structure. KPI Plus Tech should not reuse Channex's copy, exact gradient, illustrations, layout measurements, screenshots, or component styling. The final website should express KPI Plus Tech's own offer, evidence, people, and visual signal.
+Channex is a useful UX reference for hierarchy, proof placement, developer credibility, and conversion structure. NAVA should not reuse Channex's copy, exact gradient, illustrations, layout measurements, screenshots, or component styling. The final website should express NAVA's own offer, evidence, people, and visual signal.

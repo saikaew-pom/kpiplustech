@@ -75,7 +75,7 @@ export function PostEditor({ post }: { post?: CmsPost }) {
       </header>
 
       <section className="studio-ai-panel">
-        <div><Sparkles size={19} /><div><strong>AI writing assistant</strong><span>Creates a clear first draft using your soundbite strategy. You remain the editor.</span></div></div>
+        <div><Sparkles size={19} /><div><strong>AI writing assistant</strong><span>Creates a clear first draft built around one useful takeaway. You remain the editor.</span></div></div>
         <div className="studio-ai-form"><input value={topic} onChange={(event) => setTopic(event.target.value)} placeholder="Article topic, customer question, or working title" /><button disabled={!!busy} onClick={draftWithAi}>{busy === "ai" ? <LoaderCircle className="spin" size={17} /> : <Sparkles size={17} />} Create draft</button></div>
       </section>
 
@@ -85,7 +85,7 @@ export function PostEditor({ post }: { post?: CmsPost }) {
         <section className="studio-card studio-form">
           <label>Article title<input value={form.title} onChange={(event) => { set("title", event.target.value); if (!post && !form.slug) set("slug", slugify(event.target.value)); }} /></label>
           <label>One-sentence description<textarea rows={2} value={form.description} onChange={(event) => set("description", event.target.value)} /></label>
-          <label>The soundbite<input value={form.takeaway} onChange={(event) => set("takeaway", event.target.value)} placeholder="The one idea readers should remember" /></label>
+          <label>Main takeaway<input value={form.takeaway} onChange={(event) => set("takeaway", event.target.value)} placeholder="The one idea readers should remember" /></label>
           <label>Article body <span>Use ## for section headings and - for bullet points.</span><textarea className="studio-content-input" value={form.contentMarkdown} onChange={(event) => set("contentMarkdown", event.target.value)} /></label>
         </section>
         <aside className="studio-editor-aside">

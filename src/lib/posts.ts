@@ -67,7 +67,7 @@ export const posts: Post[] = [
         heading: "A homepage is a decision path",
         paragraphs: [
           "Visitors do not begin by reading. They begin by deciding whether the page is relevant. Every section should help them make the next small decision with less effort.",
-          "That is why clear soundbites work: they give people language they can understand, remember, and repeat.",
+          "That is why clear messages work: they give people language they can understand, remember, and repeat.",
         ],
       },
       {

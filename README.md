@@ -1,6 +1,6 @@
-# KPI Plus Tech website
+# NAVA website
 
-Marketing website for KPI Plus Tech, a SaaS and software development company focused on hospitality automation, AI-powered websites, reputation management, CRM, and ERP.
+Marketing website for NAVA, a SaaS and software development company focused on hospitality automation, AI-powered websites, reputation management, CRM, and ERP.
 
 The experience is built around clear, low-cognitive-load messaging, a light-blue visual system, strong technical SEO/GEO foundations, and a Cloudflare-first deployment path.
 
@@ -72,7 +72,7 @@ MiniMax is optional. Without it, the CMS and chatbot use the configured Cloudfla
 
 - `/studio` — performance overview and article list
 - `/studio/posts/new` — AI-assisted article drafting
-- Draft, publish, archive, SEO/GEO metadata, soundbite, and featured image controls
+- Draft, publish, archive, SEO/GEO metadata, main takeaway, and featured image controls
 - Automatic revision snapshot before every update
 - Published content is read directly from D1; drafts never appear publicly
 - Generated article images are copied into R2 instead of depending on temporary provider URLs

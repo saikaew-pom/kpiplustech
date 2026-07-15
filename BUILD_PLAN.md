@@ -1,10 +1,10 @@
-# KPI Plus Tech — Website Building Plan
+# NAVA — Website Building Plan
 
 Version 1.0 · July 2026
 
 ## 1. Executive direction
 
-Build KPI Plus Tech as a fast, content-led Next.js website deployed to Cloudflare Workers. The website should present the company as a clear software partner with a focused hospitality specialty, not as a catalogue of unrelated technology.
+Build NAVA as a fast, content-led Next.js website deployed to Cloudflare Workers. The website should present the company as a clear software partner with a focused hospitality specialty, not as a catalogue of unrelated technology.
 
 The website has four business goals:
 
@@ -31,7 +31,7 @@ The website has four business goals:
 
 **Supporting copy:**
 
-> KPI Plus Tech builds hotel self-check-in, reputation, CRM, ERP, and AI-powered web systems that connect your customer experience with your daily operations.
+> NAVA builds hotel self-check-in, reputation, CRM, ERP, and AI-powered web systems that connect your customer experience with your daily operations.
 
 **Primary CTA:** `Book a demo`
 
@@ -65,21 +65,21 @@ Do not place five equal product cards directly under the hero. Visitors should f
 
 Each product still receives its own indexable detail page. The paths are an information architecture device, not a change to the actual products.
 
-## 3. Soundbite messaging system
+## 3. Key idea messaging system
 
-Use a small set of repeated, memorable messages throughout the website, sales decks, demos, and chatbot. This follows Donald Miller's principle that soundbites reduce the mental work required to understand an offer.
+Use a small set of repeated, memorable messages throughout the website, sales decks, demos, and chatbot. Repetition reduces the mental work required to understand an offer.
 
-### Five provisional KPI Plus Tech soundbites
+### Five provisional NAVA core messages
 
 1. **Problem:** `Disconnected tools create slow work and inconsistent customer experiences.`
 2. **Empathy:** `Your team should spend time serving customers—not copying data between systems.`
-3. **Answer:** `KPI Plus Tech connects guest journeys, customer relationships, and operations in clear digital systems.`
+3. **Answer:** `NAVA connects guest journeys, customer relationships, and operations in clear digital systems.`
 4. **Change:** `Move from manual follow-up and scattered tools to workflows your team can trust.`
 5. **Result:** `Work faster, serve customers better, and see what is happening across your business.`
 
 ### Messaging rules
 
-- The customer is the main character; KPI Plus Tech is the guide.
+- The customer is the main character; NAVA is the guide.
 - Lead with a recognizable business problem, not a framework or technology.
 - Use one promise in the hero. Do not name all features above the fold.
 - Follow each claim with proof: a number, product screen, customer result, workflow, or demonstration.
@@ -87,7 +87,7 @@ Use a small set of repeated, memorable messages throughout the website, sales de
 - Keep headings under 12 words and paragraphs to two or three sentences.
 - Replace adjectives with specifics: delivery time, automation step, supported integration, response time, or business result.
 
-### Product-page soundbite formula
+### Product-page core-message formula
 
 `[Product] helps [specific customer] achieve [valuable result] without [painful old way].`
 
@@ -209,7 +209,7 @@ Use this structure:
 
 - Client situation
 - What was getting in the way
-- What KPI Plus Tech changed
+- What NAVA changed
 - Two measured results
 - Delivery timeline
 
@@ -451,7 +451,7 @@ AI may:
 
 - Cluster approved keywords and customer questions.
 - Generate a content brief from a selected topic and intent.
-- Suggest headlines and soundbite-aligned introductions.
+- Suggest headlines and introductions aligned with the article's main takeaway.
 - Produce a first draft using approved product knowledge.
 - Suggest internal links, FAQs, metadata, and structured data.
 - Flag unsupported claims or missing citations.
@@ -582,7 +582,7 @@ This plan interprets GEO primarily as **Generative Engine Optimization**, while 
 - Publish named authors, reviewer credentials, update dates, and editorial policy.
 - Cite primary sources and clearly distinguish facts, experience, and opinion.
 - Use comparison tables, definitions, steps, limitations, and FAQs where helpful.
-- Create stable entity pages for KPI Plus Tech, each product, and each author.
+- Create stable entity pages for NAVA, each product, and each author.
 - Keep product names, descriptions, company facts, and contact information consistent.
 - Add JSON-LD that matches visible content.
 - Publish `/llms.txt` as an additional discovery aid, not a replacement for crawlable HTML.
@@ -736,7 +736,7 @@ Additional rules:
 
 - Interview 5–8 customers/prospects.
 - Confirm primary audience and flagship product.
-- Finalize five soundbites.
+- Finalize five core messages.
 - Inventory product features, integrations, proof, and screenshots.
 - Define English/Thai launch scope.
 - Confirm legal/privacy requirements and chatbot data policy.
@@ -791,7 +791,7 @@ Additional rules:
 
 ### Messaging
 
-- A new visitor can explain what KPI Plus Tech does after five seconds.
+- A new visitor can explain what NAVA does after five seconds.
 - Hotel self-check-in is clearly presented as the flagship specialty.
 - The three buyer paths are understood without opening a menu.
 - Every important claim has evidence or is labeled as a capability rather than a result.
@@ -835,7 +835,7 @@ These do not block the building plan, but they should be resolved in Phase 0:
 ## 19. Recommended first backlog
 
 1. Approve audience priority and product grouping.
-2. Interview customers and finalize the soundbites.
+2. Interview customers and finalize the core messages.
 3. Collect product screens, integrations, FAQs, and evidence.
 4. Decide localization and URL strategy.
 5. Scaffold the Cloudflare-ready Next.js application.
@@ -855,4 +855,3 @@ These do not block the building plan, but they should be resolved in Phase 0:
 - [Next.js: Sitemaps](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/sitemap)
 - [Next.js: Robots](https://nextjs.org/docs/app/api-reference/file-conventions/metadata/robots)
 - [Next.js: JSON-LD](https://nextjs.org/docs/app/guides/json-ld)
-- [StoryBrand: Soundbites and cognitive load](https://storybrand.com/the-5-soundbites-that-will-grow-your-business-free-video/)

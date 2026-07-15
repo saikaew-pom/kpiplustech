@@ -77,7 +77,7 @@ export default async function InsightPage({ params }: { params: Promise<{ slug: 
 
           <div className="reading-shell article-layout">
             <aside className="article-takeaway">
-              <span>THE SOUNDBITE</span>
+              <span>MAIN TAKEAWAY</span>
               <p>{post.takeaway}</p>
             </aside>
             <ArticleMarkdown markdown={post.contentMarkdown} />

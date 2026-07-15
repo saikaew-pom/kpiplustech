@@ -24,10 +24,10 @@ import { siteConfig } from "@/lib/site";
 export const metadata: Metadata = {
   title: "SaaS Products and Custom Business Software",
   description:
-    "KPI Plus Tech builds hotel self-check-in, reputation, CRM, ERP, and AI-powered web systems that reduce manual work and improve customer experiences.",
+    "NAVA builds hotel self-check-in, reputation, CRM, ERP, and AI-powered web systems that reduce manual work and improve customer experiences.",
   alternates: { canonical: "/" },
   openGraph: {
-    title: "Run your business with less manual work | KPI Plus Tech",
+    title: "Run your business with less manual work | NAVA",
     description:
       "Clear software for smoother operations and better customer experiences.",
     url: "/",

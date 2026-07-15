@@ -6,7 +6,7 @@ import { siteConfig } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Book a Demo or Start a Software Project",
   description:
-    "Tell KPI Plus Tech what you would like to make simpler. Discuss a product demo, hotel workflow, AI website, CRM, ERP, or custom software project.",
+    "Tell NAVA what you would like to make simpler. Discuss a product demo, hotel workflow, AI website, CRM, ERP, or custom software project.",
   alternates: { canonical: "/contact" },
 };
 
@@ -30,13 +30,13 @@ export default function ContactPage() {
           </div>
 
           <div className="contact-card">
-            <span>CONTACT KPI PLUS TECH</span>
+            <span>CONTACT NAVA</span>
             <h2>Start the conversation</h2>
             <p>
               Email is the direct launch channel. A protected enquiry form
               will connect to Cloudflare D1 and Turnstile before production.
             </p>
-            <a className="contact-email" href={`mailto:${siteConfig.email}?subject=KPI Plus Tech enquiry`}>
+            <a className="contact-email" href={`mailto:${siteConfig.email}?subject=NAVA enquiry`}>
               <Mail size={20} />
               <span><small>EMAIL</small><strong>{siteConfig.email}</strong></span>
               <ArrowUpRight size={18} />
